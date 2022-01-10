@@ -10,7 +10,7 @@ public class Produktrepo implements ProduktInterface{
 
     private final List<Produkt> List;
 
-    public Produktrepo(java.util.List<Produkt> list) {
+    public Produktrepo() {
         List = new ArrayList<>();
     }
 

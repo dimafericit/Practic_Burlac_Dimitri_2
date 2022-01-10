@@ -6,6 +6,10 @@ public class Produkt {
     private int sku;
     private int anzahl;
 
+
+    /**
+     * constructor
+     */
     public Produkt(String name, int preis, int sku, int anzahl){
         this.name = name;
         this.preis = preis;
@@ -43,5 +47,15 @@ public class Produkt {
 
     public void setSku(int sku) {
         this.sku = sku;
+    }
+
+    @Override
+    public String toString() {
+        return "Produkt{" +
+                "name='" + name + '\'' +
+                ", preis=" + preis +
+                ", sku=" + sku +
+                ", anzahl=" + anzahl +
+                '}';
     }
 }
